@@ -20,6 +20,6 @@ src/
 └── tasks/
     ├── Task1.java     # Задача 1
     ├── Task2.java     # Задача 2
-    ├── Task3.java     # Задача 3 (BaseConverter)
+    ├── Task3.java     # Задача 3 
     └── Task4.java     # Задача 4
 ```
