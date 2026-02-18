@@ -22,13 +22,13 @@ public class Task1
             }
             else if (size>Integer.MAX_VALUE - 8)
             {
-                System.out.println("Размер слишкм большой");
+                System.out.println("Размер слишком большой");
                 return;
             }
 
         } catch (NumberFormatException e)
         {
-            System.out.println("Некорректный ввод.");
+            System.out.println("Некорректный ввод");
             return;
         }
 
@@ -54,7 +54,7 @@ public class Task1
         System.out.print("Массив: [");
         for (int i = 0; i < size; i++)
         {
-            System.out.printf("%.2f%s", array[i], i < size - 1 ? "| " : "");
+            System.out.printf("%.2f%s", array[i], i < size - 1 ? " | " : "");
         }
 
         System.out.println("]");
